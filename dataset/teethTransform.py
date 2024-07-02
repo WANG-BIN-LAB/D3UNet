@@ -1,0 +1,157 @@
+import cv2
+import numpy as np
+from albumentations import Compose as Compose_albu
+from albumentations import (
+    PadIfNeeded,
+    HorizontalFlip,
+    GridDistortion,
+    RandomBrightnessContrast,
+    RandomGamma,
+    Crop,
+    LongestMaxSize,
+    ShiftScaleRotate
+)
+
+
+def to_numpy(data):
+    image, label = data['image'], data['label']
+
+    #image, label, label_e = data['image'], data['label'], data['label_e']
+    data['image'] = np.array(image)
+    if data['label'] is not None:
+        data['label'] = np.array(label)
+
+    # if data['label_e'] is not None:
+    #     data['label_e'] = np.array(label_e)
+
+    return data
+
+
+class Compose:
+    def __init__(self, transforms):
+        self.transforms = transforms
+
+    def __call__(self, data):
+        for t in self.transforms:
+            data = t(data)
+        return data
+
+
+class TeethTransform:
+    def __init__(self, output_size, roi_error_range=0, use_roi=True):
+        if isinstance(output_size, (tuple, list)):
+            self._output_size = output_size  # (h, w)
+        else:
+            self._output_size = (output_size, output_size)
+
+        self._roi_error_range = roi_error_range
+        self._type = 'train'
+        self.use_roi = use_roi
+
+    def train(self):
+        self._type = 'train'
+        return self
+
+    def eval(self):
+        self._type = 'eval'
+        return self
+
+    def __call__(self, data):
+        data = to_numpy(data)
+        img, label = data['image'], data['label'] 
+        # img, label, label_e = data['image'], data['label'], data['label_e']
+
+        is_3d = True if img.shape == 4 else False
+
+        max_size = max(self._output_size[0], self._output_size[1])#640
+
+        if self._type == 'train':
+            task = [
+                HorizontalFlip(p=0.5),
+                RandomBrightnessContrast(p=0.5),
+                RandomGamma(p=0.5),
+                GridDistortion(border_mode=cv2.BORDER_CONSTANT, p=0.5),
+                LongestMaxSize(max_size, p=1),
+                PadIfNeeded(self._output_size[0], self._output_size[1], cv2.BORDER_CONSTANT, value=0, p=1),
+                ShiftScaleRotate(shift_limit=0.2, scale_limit=0.5, rotate_limit=30, border_mode=cv2.BORDER_CONSTANT, value=0, p=0.5)
+            ]
+        else:
+            task = [
+                LongestMaxSize(max_size, p=1),
+                PadIfNeeded(self._output_size[0], self._output_size[1], cv2.BORDER_CONSTANT, value=0, p=1)
+            ]
+
+        if self.use_roi:
+            assert 'roi' in data.keys() and len(data['roi']) is not 0
+            roi = data['roi']
+            min_x = 0
+            max_x = img.shape[0]
+            min_y = 0
+            max_y = img.shape[1]
+
+            min_x = max(min_x, roi['min_x'] - self._roi_error_range)
+            max_x = min(max_x, roi['max_x'] + self._roi_error_range)
+            min_y = max(min_y, roi['min_y'] - self._roi_error_range)
+            max_y = min(max_y, roi['max_y'] + self._roi_error_range)
+
+            crop = [Crop(min_y, min_x, max_y, max_x, p=1)]
+            task_roi = [Crop(min_y, min_x, max_y, max_x, p=1)]
+        else:
+            task_roi = []
+
+        aug_roi = Compose_albu(task_roi)
+        aug = Compose_albu(task)
+        #task = crop + task
+
+        #aug = Compose_albu(task)
+        if not is_3d:
+            #aug_data = aug(image=img, mask=label)
+            aug_data = aug_roi(image=img, masks=label)
+
+            aug_data = aug(image=aug_data['image'], masks=aug_data['masks'])
+            data['image'], data['label']= aug_data['image'], aug_data['masks']
+            # data['image'], data['label'], data['label_e'] = aug_data['image'], aug_data['mask'], aug_data['mask_e']
+
+        else:
+            keys = {}
+            targets = {}
+
+            for i in range(1, img.shape[2]):
+                keys.update({f'image{i}': 'image'})
+                keys.update({f'mask{i}': 'mask'})
+                keys.update({f'mask_e{i}': 'mask_e'})
+                targets.update({f'image{i}': img[:, :, i]})
+                targets.update({f'mask{i}': label[:, :, i]})
+                # targets.update({f'mask_e{i}': label_e[:, :, i]})
+            aug.add_targets(keys)
+
+            targets.update({'image': img[:, :, 0]})
+            targets.update({'mask': label[:, :, 0]})
+            # targets.update({'mask_e': label_e[:, :, 0]})
+
+            aug_data = aug(**targets)
+            imgs = [aug_data['image']]
+            labels = [aug_data['mask']]
+            # labels_e = [aug_data['mask_e']]
+
+            for i in range(1, img.shape[2]):
+                imgs.append(aug_data[f'image{i}'])
+                labels.append(aug_data[f'mask{i}'])
+                # labels_e.append(aug_data[f'mask_e{i}'])
+
+            img = np.stack(imgs, axis=-1)
+            label = np.stack(labels, axis=-1)
+            # label_e = np.stack(labels_e, axis=-1)
+            data['image'] = img
+            data['label'] = label
+            # data['label_e'] = label_e
+
+        return data
+
+    @property
+    def roi_error_range(self):
+        return self._roi_error_range
+
+    @property
+    def output_size(self):
+        return self._output_size

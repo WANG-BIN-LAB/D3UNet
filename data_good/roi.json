@@ -1,0 +1,1460 @@
+{
+    "2019081202": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 164,
+            "min_y": 100,
+            "min_z": 234,
+            "max_x": 445,
+            "max_y": 323,
+            "max_z": 423,
+            "area": 1250353,
+            "slice": 189
+        },
+        "root": {
+            "min_x": 169,
+            "min_y": 113,
+            "min_z": 238,
+            "max_x": 440,
+            "max_y": 318,
+            "max_z": 419,
+            "area": 66678,
+            "slice": 181
+        }
+    },
+    "2019081212": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 190,
+            "min_y": 110,
+            "min_z": 261,
+            "max_x": 462,
+            "max_y": 294,
+            "max_z": 423,
+            "area": 792835,
+            "slice": 162
+        },
+        "root": {
+            "min_x": 193,
+            "min_y": 123,
+            "min_z": 262,
+            "max_x": 454,
+            "max_y": 286,
+            "max_z": 421,
+            "area": 50499,
+            "slice": 138
+        }
+    },
+    "2019081308": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 157,
+            "min_y": 49,
+            "min_z": 238,
+            "max_x": 436,
+            "max_y": 293,
+            "max_z": 414,
+            "area": 1286850,
+            "slice": 176
+        },
+        "root": {
+            "min_x": 171,
+            "min_y": 65,
+            "min_z": 244,
+            "max_x": 423,
+            "max_y": 276,
+            "max_z": 408,
+            "area": 80160,
+            "slice": 161
+        }
+    },
+    "2019081405": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 154,
+            "min_y": 79,
+            "min_z": 234,
+            "max_x": 432,
+            "max_y": 326,
+            "max_z": 413,
+            "area": 1180481,
+            "slice": 179
+        },
+        "root": {
+            "min_x": 167,
+            "min_y": 91,
+            "min_z": 241,
+            "max_x": 425,
+            "max_y": 317,
+            "max_z": 405,
+            "area": 56465,
+            "slice": 156
+        }
+    },
+    "2019081501": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 278,
+            "min_y": 44,
+            "min_z": 334,
+            "max_x": 503,
+            "max_y": 257,
+            "max_z": 487,
+            "area": 736876,
+            "slice": 153
+        },
+        "root": {
+            "min_x": 283,
+            "min_y": 59,
+            "min_z": 337,
+            "max_x": 498,
+            "max_y": 250,
+            "max_z": 476,
+            "area": 42242,
+            "slice": 136
+        }
+    },
+    "2019081515": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 200,
+            "min_y": 71,
+            "min_z": 261,
+            "max_x": 448,
+            "max_y": 259,
+            "max_z": 409,
+            "area": 642977,
+            "slice": 148
+        },
+        "root": {
+            "min_x": 205,
+            "min_y": 80,
+            "min_z": 262,
+            "max_x": 435,
+            "max_y": 243,
+            "max_z": 398,
+            "area": 30529,
+            "slice": 130
+        }
+    },
+    "2019081916": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 166,
+            "min_y": 56,
+            "min_z": 260,
+            "max_x": 426,
+            "max_y": 264,
+            "max_z": 435,
+            "area": 998600,
+            "slice": 175
+        },
+        "root": {
+            "min_x": 169,
+            "min_y": 70,
+            "min_z": 261,
+            "max_x": 415,
+            "max_y": 256,
+            "max_z": 432,
+            "area": 62019,
+            "slice": 168
+        }
+    },
+    "2019082007": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 158,
+            "min_y": 76,
+            "min_z": 251,
+            "max_x": 432,
+            "max_y": 303,
+            "max_z": 434,
+            "area": 1004957,
+            "slice": 183
+        },
+        "root": {
+            "min_x": 172,
+            "min_y": 88,
+            "min_z": 251,
+            "max_x": 420,
+            "max_y": 287,
+            "max_z": 431,
+            "area": 35246,
+            "slice": 166
+        }
+    },
+    "2019082008": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 192,
+            "min_y": 78,
+            "min_z": 251,
+            "max_x": 439,
+            "max_y": 277,
+            "max_z": 432,
+            "area": 867347,
+            "slice": 181
+        },
+        "root": {
+            "min_x": 196,
+            "min_y": 88,
+            "min_z": 251,
+            "max_x": 436,
+            "max_y": 262,
+            "max_z": 423,
+            "area": 40665,
+            "slice": 155
+        }
+    },
+    "2019082103": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 254,
+            "min_y": 87,
+            "min_z": 343,
+            "max_x": 475,
+            "max_y": 240,
+            "max_z": 485,
+            "area": 491445,
+            "slice": 142
+        },
+        "root": {
+            "min_x": 257,
+            "min_y": 97,
+            "min_z": 344,
+            "max_x": 470,
+            "max_y": 232,
+            "max_z": 476,
+            "area": 28527,
+            "slice": 128
+        }
+    },
+    "2019082606": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 215,
+            "min_y": 85,
+            "min_z": 333,
+            "max_x": 419,
+            "max_y": 243,
+            "max_z": 478,
+            "area": 412525,
+            "slice": 145
+        },
+        "root": {
+            "min_x": 218,
+            "min_y": 94,
+            "min_z": 337,
+            "max_x": 413,
+            "max_y": 239,
+            "max_z": 472,
+            "area": 24959,
+            "slice": 134
+        }
+    },
+    "2019082703": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 242,
+            "min_y": 100,
+            "min_z": 276,
+            "max_x": 486,
+            "max_y": 275,
+            "max_z": 454,
+            "area": 747640,
+            "slice": 178
+        },
+        "root": {
+            "min_x": 246,
+            "min_y": 109,
+            "min_z": 277,
+            "max_x": 479,
+            "max_y": 269,
+            "max_z": 452,
+            "area": 51343,
+            "slice": 169
+        }
+    },
+    "2019082817": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 176,
+            "min_y": 136,
+            "min_z": 258,
+            "max_x": 444,
+            "max_y": 333,
+            "max_z": 429,
+            "area": 853960,
+            "slice": 171
+        },
+        "root": {
+            "min_x": 187,
+            "min_y": 145,
+            "min_z": 259,
+            "max_x": 438,
+            "max_y": 327,
+            "max_z": 425,
+            "area": 28634,
+            "slice": 157
+        }
+    },
+    "2019082907": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 149,
+            "min_y": 140,
+            "min_z": 216,
+            "max_x": 436,
+            "max_y": 345,
+            "max_z": 413,
+            "area": 1171755,
+            "slice": 197
+        },
+        "root": {
+            "min_x": 151,
+            "min_y": 153,
+            "min_z": 217,
+            "max_x": 431,
+            "max_y": 336,
+            "max_z": 412,
+            "area": 65447,
+            "slice": 175
+        }
+    },
+    "2019083007": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 243,
+            "min_y": 83,
+            "min_z": 301,
+            "max_x": 491,
+            "max_y": 283,
+            "max_z": 472,
+            "area": 690965,
+            "slice": 171
+        },
+        "root": {
+            "min_x": 247,
+            "min_y": 90,
+            "min_z": 303,
+            "max_x": 486,
+            "max_y": 280,
+            "max_z": 470,
+            "area": 48848,
+            "slice": 165
+        }
+    },
+    "2019083008": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 238,
+            "min_y": 95,
+            "min_z": 344,
+            "max_x": 461,
+            "max_y": 275,
+            "max_z": 462,
+            "area": 465086,
+            "slice": 118
+        },
+        "root": {
+            "min_x": 243,
+            "min_y": 104,
+            "min_z": 344,
+            "max_x": 453,
+            "max_y": 265,
+            "max_z": 457,
+            "area": 25413,
+            "slice": 103
+        }
+    },
+    "2019090310": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 181,
+            "min_y": 117,
+            "min_z": 266,
+            "max_x": 473,
+            "max_y": 349,
+            "max_z": 426,
+            "area": 1150183,
+            "slice": 160
+        },
+        "root": {
+            "min_x": 188,
+            "min_y": 131,
+            "min_z": 267,
+            "max_x": 466,
+            "max_y": 343,
+            "max_z": 419,
+            "area": 51078,
+            "slice": 145
+        }
+    },
+    "2019090316": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 161,
+            "min_y": 64,
+            "min_z": 227,
+            "max_x": 445,
+            "max_y": 301,
+            "max_z": 410,
+            "area": 1090135,
+            "slice": 183
+        },
+        "root": {
+            "min_x": 171,
+            "min_y": 81,
+            "min_z": 234,
+            "max_x": 438,
+            "max_y": 292,
+            "max_z": 410,
+            "area": 40584,
+            "slice": 160
+        }
+    },
+    "2019090511": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 191,
+            "min_y": 67,
+            "min_z": 207,
+            "max_x": 439,
+            "max_y": 287,
+            "max_z": 383,
+            "area": 877684,
+            "slice": 176
+        },
+        "root": {
+            "min_x": 198,
+            "min_y": 82,
+            "min_z": 209,
+            "max_x": 436,
+            "max_y": 282,
+            "max_z": 378,
+            "area": 29374,
+            "slice": 161
+        }
+    },
+    "2019091203": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 177,
+            "min_y": 152,
+            "min_z": 241,
+            "max_x": 439,
+            "max_y": 364,
+            "max_z": 403,
+            "area": 836976,
+            "slice": 162
+        },
+        "root": {
+            "min_x": 182,
+            "min_y": 164,
+            "min_z": 243,
+            "max_x": 426,
+            "max_y": 358,
+            "max_z": 398,
+            "area": 29025,
+            "slice": 137
+        }
+    },
+    "2019091209": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 263,
+            "min_y": 43,
+            "min_z": 328,
+            "max_x": 481,
+            "max_y": 220,
+            "max_z": 458,
+            "area": 541703,
+            "slice": 130
+        },
+        "root": {
+            "min_x": 275,
+            "min_y": 58,
+            "min_z": 328,
+            "max_x": 470,
+            "max_y": 211,
+            "max_z": 452,
+            "area": 24564,
+            "slice": 119
+        }
+    },
+    "2019091609": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 165,
+            "min_y": 164,
+            "min_z": 257,
+            "max_x": 447,
+            "max_y": 366,
+            "max_z": 452,
+            "area": 1024668,
+            "slice": 195
+        },
+        "root": {
+            "min_x": 169,
+            "min_y": 173,
+            "min_z": 262,
+            "max_x": 441,
+            "max_y": 360,
+            "max_z": 448,
+            "area": 44621,
+            "slice": 186
+        }
+    },
+    "2019092005": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 241,
+            "min_y": 73,
+            "min_z": 327,
+            "max_x": 494,
+            "max_y": 286,
+            "max_z": 475,
+            "area": 733979,
+            "slice": 148
+        },
+        "root": {
+            "min_x": 246,
+            "min_y": 81,
+            "min_z": 330,
+            "max_x": 489,
+            "max_y": 282,
+            "max_z": 466,
+            "area": 44028,
+            "slice": 136
+        }
+    },
+    "2019092302": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 250,
+            "min_y": 107,
+            "min_z": 322,
+            "max_x": 504,
+            "max_y": 310,
+            "max_z": 488,
+            "area": 714265,
+            "slice": 166
+        },
+        "root": {
+            "min_x": 254,
+            "min_y": 114,
+            "min_z": 330,
+            "max_x": 499,
+            "max_y": 305,
+            "max_z": 484,
+            "area": 36185,
+            "slice": 154
+        }
+    },
+    "2019092709": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 155,
+            "min_y": 131,
+            "min_z": 198,
+            "max_x": 420,
+            "max_y": 327,
+            "max_z": 426,
+            "area": 1140809,
+            "slice": 227
+        },
+        "root": {
+            "min_x": 163,
+            "min_y": 140,
+            "min_z": 201,
+            "max_x": 416,
+            "max_y": 317,
+            "max_z": 420,
+            "area": 67528,
+            "slice": 182
+        }
+    },
+    "2019100702": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 171,
+            "min_y": 121,
+            "min_z": 230,
+            "max_x": 453,
+            "max_y": 391,
+            "max_z": 418,
+            "area": 996392,
+            "slice": 188
+        },
+        "root": {
+            "min_x": 177,
+            "min_y": 139,
+            "min_z": 238,
+            "max_x": 436,
+            "max_y": 377,
+            "max_z": 411,
+            "area": 51032,
+            "slice": 164
+        }
+    },
+    "2019100903": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 186,
+            "min_y": 118,
+            "min_z": 253,
+            "max_x": 434,
+            "max_y": 348,
+            "max_z": 426,
+            "area": 972015,
+            "slice": 173
+        },
+        "root": {
+            "min_x": 190,
+            "min_y": 131,
+            "min_z": 257,
+            "max_x": 427,
+            "max_y": 341,
+            "max_z": 420,
+            "area": 36897,
+            "slice": 151
+        }
+    },
+    "2019100904": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 164,
+            "min_y": 150,
+            "min_z": 241,
+            "max_x": 440,
+            "max_y": 368,
+            "max_z": 416,
+            "area": 840701,
+            "slice": 175
+        },
+        "root": {
+            "min_x": 173,
+            "min_y": 160,
+            "min_z": 250,
+            "max_x": 431,
+            "max_y": 363,
+            "max_z": 410,
+            "area": 21948,
+            "slice": 157
+        }
+    },
+    "2019100908": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 267,
+            "min_y": 66,
+            "min_z": 337,
+            "max_x": 497,
+            "max_y": 262,
+            "max_z": 466,
+            "area": 651106,
+            "slice": 129
+        },
+        "root": {
+            "min_x": 270,
+            "min_y": 75,
+            "min_z": 337,
+            "max_x": 493,
+            "max_y": 257,
+            "max_z": 463,
+            "area": 41995,
+            "slice": 123
+        }
+    },
+    "2019101016": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 176,
+            "min_y": 51,
+            "min_z": 271,
+            "max_x": 445,
+            "max_y": 237,
+            "max_z": 432,
+            "area": 951027,
+            "slice": 161
+        },
+        "root": {
+            "min_x": 187,
+            "min_y": 64,
+            "min_z": 275,
+            "max_x": 437,
+            "max_y": 228,
+            "max_z": 431,
+            "area": 29031,
+            "slice": 130
+        }
+    },
+    "2019101107": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 202,
+            "min_y": 113,
+            "min_z": 254,
+            "max_x": 458,
+            "max_y": 301,
+            "max_z": 415,
+            "area": 708378,
+            "slice": 161
+        },
+        "root": {
+            "min_x": 209,
+            "min_y": 123,
+            "min_z": 258,
+            "max_x": 454,
+            "max_y": 288,
+            "max_z": 411,
+            "area": 31907,
+            "slice": 135
+        }
+    },
+    "2019101113": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 182,
+            "min_y": 98,
+            "min_z": 227,
+            "max_x": 449,
+            "max_y": 314,
+            "max_z": 411,
+            "area": 948131,
+            "slice": 184
+        },
+        "root": {
+            "min_x": 194,
+            "min_y": 111,
+            "min_z": 245,
+            "max_x": 432,
+            "max_y": 305,
+            "max_z": 401,
+            "area": 47573,
+            "slice": 149
+        }
+    },
+    "2019101411": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 172,
+            "min_y": 78,
+            "min_z": 201,
+            "max_x": 445,
+            "max_y": 300,
+            "max_z": 399,
+            "area": 1122905,
+            "slice": 198
+        },
+        "root": {
+            "min_x": 178,
+            "min_y": 88,
+            "min_z": 205,
+            "max_x": 440,
+            "max_y": 294,
+            "max_z": 398,
+            "area": 53485,
+            "slice": 180
+        }
+    },
+    "2019101601": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 183,
+            "min_y": 75,
+            "min_z": 252,
+            "max_x": 454,
+            "max_y": 300,
+            "max_z": 433,
+            "area": 1057474,
+            "slice": 181
+        },
+        "root": {
+            "min_x": 190,
+            "min_y": 82,
+            "min_z": 253,
+            "max_x": 441,
+            "max_y": 294,
+            "max_z": 426,
+            "area": 40026,
+            "slice": 170
+        }
+    },
+    "2019102102": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 176,
+            "min_y": 99,
+            "min_z": 261,
+            "max_x": 437,
+            "max_y": 317,
+            "max_z": 429,
+            "area": 866443,
+            "slice": 168
+        },
+        "root": {
+            "min_x": 180,
+            "min_y": 109,
+            "min_z": 267,
+            "max_x": 433,
+            "max_y": 308,
+            "max_z": 415,
+            "area": 37848,
+            "slice": 137
+        }
+    },
+    "2019102205": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 183,
+            "min_y": 104,
+            "min_z": 239,
+            "max_x": 444,
+            "max_y": 299,
+            "max_z": 415,
+            "area": 979277,
+            "slice": 176
+        },
+        "root": {
+            "min_x": 186,
+            "min_y": 130,
+            "min_z": 240,
+            "max_x": 439,
+            "max_y": 290,
+            "max_z": 411,
+            "area": 41573,
+            "slice": 167
+        }
+    },
+    "2019102208": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 259,
+            "min_y": 75,
+            "min_z": 352,
+            "max_x": 485,
+            "max_y": 255,
+            "max_z": 485,
+            "area": 591816,
+            "slice": 133
+        },
+        "root": {
+            "min_x": 268,
+            "min_y": 82,
+            "min_z": 352,
+            "max_x": 475,
+            "max_y": 241,
+            "max_z": 484,
+            "area": 38134,
+            "slice": 125
+        }
+    },
+    "2019102213": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 171,
+            "min_y": 91,
+            "min_z": 247,
+            "max_x": 433,
+            "max_y": 335,
+            "max_z": 425,
+            "area": 1138958,
+            "slice": 178
+        },
+        "root": {
+            "min_x": 175,
+            "min_y": 103,
+            "min_z": 248,
+            "max_x": 427,
+            "max_y": 322,
+            "max_z": 420,
+            "area": 55186,
+            "slice": 171
+        }
+    },
+    "2019102216": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 185,
+            "min_y": 81,
+            "min_z": 263,
+            "max_x": 446,
+            "max_y": 282,
+            "max_z": 425,
+            "area": 810807,
+            "slice": 162
+        },
+        "root": {
+            "min_x": 191,
+            "min_y": 93,
+            "min_z": 265,
+            "max_x": 441,
+            "max_y": 275,
+            "max_z": 419,
+            "area": 46943,
+            "slice": 149
+        }
+    },
+    "2019102307": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 178,
+            "min_y": 122,
+            "min_z": 245,
+            "max_x": 442,
+            "max_y": 345,
+            "max_z": 413,
+            "area": 1007684,
+            "slice": 168
+        },
+        "root": {
+            "min_x": 182,
+            "min_y": 140,
+            "min_z": 249,
+            "max_x": 428,
+            "max_y": 331,
+            "max_z": 407,
+            "area": 39232,
+            "slice": 141
+        }
+    },
+    "2019102602": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 162,
+            "min_y": 101,
+            "min_z": 260,
+            "max_x": 416,
+            "max_y": 299,
+            "max_z": 458,
+            "area": 1093267,
+            "slice": 198
+        },
+        "root": {
+            "min_x": 167,
+            "min_y": 113,
+            "min_z": 263,
+            "max_x": 412,
+            "max_y": 296,
+            "max_z": 457,
+            "area": 74272,
+            "slice": 173
+        }
+    },
+    "2019102805": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 171,
+            "min_y": 100,
+            "min_z": 272,
+            "max_x": 451,
+            "max_y": 320,
+            "max_z": 435,
+            "area": 720918,
+            "slice": 163
+        },
+        "root": {
+            "min_x": 181,
+            "min_y": 115,
+            "min_z": 277,
+            "max_x": 431,
+            "max_y": 280,
+            "max_z": 433,
+            "area": 32022,
+            "slice": 155
+        }
+    },
+    "2019102904": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 170,
+            "min_y": 106,
+            "min_z": 253,
+            "max_x": 450,
+            "max_y": 333,
+            "max_z": 422,
+            "area": 866856,
+            "slice": 169
+        },
+        "root": {
+            "min_x": 178,
+            "min_y": 116,
+            "min_z": 257,
+            "max_x": 445,
+            "max_y": 329,
+            "max_z": 418,
+            "area": 42240,
+            "slice": 161
+        }
+    },
+    "2019102905": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 161,
+            "min_y": 115,
+            "min_z": 245,
+            "max_x": 439,
+            "max_y": 378,
+            "max_z": 421,
+            "area": 1225013,
+            "slice": 176
+        },
+        "root": {
+            "min_x": 168,
+            "min_y": 127,
+            "min_z": 246,
+            "max_x": 430,
+            "max_y": 371,
+            "max_z": 419,
+            "area": 48815,
+            "slice": 173
+        }
+    },
+    "2019103113": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 167,
+            "min_y": 96,
+            "min_z": 256,
+            "max_x": 428,
+            "max_y": 324,
+            "max_z": 418,
+            "area": 955388,
+            "slice": 162
+        },
+        "root": {
+            "min_x": 172,
+            "min_y": 106,
+            "min_z": 258,
+            "max_x": 421,
+            "max_y": 319,
+            "max_z": 415,
+            "area": 41430,
+            "slice": 146
+        }
+    },
+    "2019110501": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 169,
+            "min_y": 94,
+            "min_z": 255,
+            "max_x": 434,
+            "max_y": 317,
+            "max_z": 432,
+            "area": 1067775,
+            "slice": 177
+        },
+        "root": {
+            "min_x": 177,
+            "min_y": 110,
+            "min_z": 257,
+            "max_x": 427,
+            "max_y": 306,
+            "max_z": 423,
+            "area": 48740,
+            "slice": 146
+        }
+    },
+    "2019110601": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 177,
+            "min_y": 120,
+            "min_z": 215,
+            "max_x": 452,
+            "max_y": 371,
+            "max_z": 404,
+            "area": 1206673,
+            "slice": 189
+        },
+        "root": {
+            "min_x": 185,
+            "min_y": 130,
+            "min_z": 224,
+            "max_x": 444,
+            "max_y": 345,
+            "max_z": 399,
+            "area": 51220,
+            "slice": 174
+        }
+    },
+    "2019110610": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 185,
+            "min_y": 106,
+            "min_z": 266,
+            "max_x": 451,
+            "max_y": 322,
+            "max_z": 434,
+            "area": 900913,
+            "slice": 168
+        },
+        "root": {
+            "min_x": 189,
+            "min_y": 115,
+            "min_z": 276,
+            "max_x": 447,
+            "max_y": 314,
+            "max_z": 414,
+            "area": 41829,
+            "slice": 127
+        }
+    },
+    "2019110703": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 180,
+            "min_y": 92,
+            "min_z": 258,
+            "max_x": 438,
+            "max_y": 297,
+            "max_z": 416,
+            "area": 957310,
+            "slice": 158
+        },
+        "root": {
+            "min_x": 191,
+            "min_y": 103,
+            "min_z": 263,
+            "max_x": 427,
+            "max_y": 279,
+            "max_z": 414,
+            "area": 36616,
+            "slice": 144
+        }
+    },
+    "2019111108": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 183,
+            "min_y": 85,
+            "min_z": 266,
+            "max_x": 453,
+            "max_y": 312,
+            "max_z": 427,
+            "area": 1067854,
+            "slice": 161
+        },
+        "root": {
+            "min_x": 198,
+            "min_y": 98,
+            "min_z": 268,
+            "max_x": 442,
+            "max_y": 295,
+            "max_z": 422,
+            "area": 50268,
+            "slice": 149
+        }
+    },
+    "2019111109": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 160,
+            "min_y": 116,
+            "min_z": 258,
+            "max_x": 451,
+            "max_y": 361,
+            "max_z": 430,
+            "area": 1072143,
+            "slice": 172
+        },
+        "root": {
+            "min_x": 178,
+            "min_y": 135,
+            "min_z": 263,
+            "max_x": 446,
+            "max_y": 353,
+            "max_z": 421,
+            "area": 44212,
+            "slice": 145
+        }
+    },
+    "2019111302": {
+        "vol": {
+            "total_x": 768,
+            "total_y": 768,
+            "total_z": 576
+        },
+        "teeth": {
+            "min_x": 261,
+            "min_y": 95,
+            "min_z": 344,
+            "max_x": 506,
+            "max_y": 292,
+            "max_z": 467,
+            "area": 576057,
+            "slice": 123
+        },
+        "root": {
+            "min_x": 271,
+            "min_y": 105,
+            "min_z": 350,
+            "max_x": 495,
+            "max_y": 278,
+            "max_z": 458,
+            "area": 30898,
+            "slice": 102
+        }
+    },
+    "2019112108": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 183,
+            "min_y": 126,
+            "min_z": 257,
+            "max_x": 441,
+            "max_y": 326,
+            "max_z": 439,
+            "area": 978206,
+            "slice": 182
+        },
+        "root": {
+            "min_x": 186,
+            "min_y": 137,
+            "min_z": 268,
+            "max_x": 438,
+            "max_y": 313,
+            "max_z": 437,
+            "area": 50252,
+            "slice": 161
+        }
+    },
+    "2019112109": {
+        "vol": {
+            "total_x": 640,
+            "total_y": 640,
+            "total_z": 528
+        },
+        "teeth": {
+            "min_x": 168,
+            "min_y": 149,
+            "min_z": 250,
+            "max_x": 447,
+            "max_y": 363,
+            "max_z": 430,
+            "area": 1130468,
+            "slice": 180
+        },
+        "root": {
+            "min_x": 177,
+            "min_y": 162,
+            "min_z": 251,
+            "max_x": 441,
+            "max_y": 355,
+            "max_z": 425,
+            "area": 67810,
+            "slice": 165
+        }
+    }
+}
